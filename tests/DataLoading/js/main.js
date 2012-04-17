@@ -2,7 +2,7 @@
    "use strict";
 
 	//this assumes you run the webserver from the root of the repository
-	var s = new SpectralKitten("http://127.0.0.1:8000/tests/DataLoading/");
+	var s = new SpectralKitten("http://localhost/tests/DataLoading/");
 		s.apiVersionName = "version.json";
 		s.apiCardsName = "all_cards.json";
 
