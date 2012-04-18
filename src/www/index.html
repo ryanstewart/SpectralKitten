@@ -8,6 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/cardflipper.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -58,8 +59,12 @@
 		</ul>
 	  </div>
 	  <div class="span8">
-			<img src="{{card_image}}" />
-			<img src="{{card_reverse_image}}" />
+	  	<div id="logos">
+			<a id="cube" href="#">
+				<img id="cardFront" src="{{card_image}}" />
+				<img id="cardBack" src="{{card_reverse_image}}" />
+			</a>
+	  	</div>
 	  </div>
 	</div>
 </script>
