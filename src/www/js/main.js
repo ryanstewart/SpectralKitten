@@ -354,3 +354,9 @@ var cardDisplaySource = $("#cardDisplay_template").html();
 var cardDisplayTemplate = Handlebars.compile(cardDisplaySource);
 cardDisplaySource = cardDisplayTemplate(cardData.cards[0]);
 $("#cardInfo").html(cardDisplaySource);
+
+$('#cube').hover(function(){
+	$(this).addClass('rotate');
+},function(){
+	$(this).removeClass('rotate');
+});
